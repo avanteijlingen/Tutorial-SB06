@@ -130,3 +130,6 @@ dmypy.json
 
 #Microsoft office
 ~*
+
+#Mine
+*.bak
