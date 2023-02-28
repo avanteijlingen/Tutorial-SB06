@@ -32,18 +32,29 @@ for fit_intercept in [True, False]:
         
         model = LinearRegression(**Hyperparameters)
 
+        #Train on the training data
         model.fit(X_train, y_train["mean"])
         
+        # Test on the Test data
         predictions = model.predict(X_test)
-        
-        print("fit_intercept:", fit_intercept, "positive", positive, r2_score(y_test["mean"], predictions))
-        plt.scatter(predictions, y_test["mean"])
-        plt.xlabel("Predicted AP")
-        plt.ylabel("True AP")
-        plt.show()
         
         BestHyperparameters.loc[iteration] = [fit_intercept, positive, r2_score(y_test["mean"], predictions)]
         iteration +=1
         
+      
+BestHyperparameters = BestHyperparameters.sort_values("R2")
+print(BestHyperparameters)
+
+Hyperparameters = {"fit_intercept": BestHyperparameters.iloc[-1]["fit_intercept"],
+                   "positive": BestHyperparameters.iloc[-1]["positive"]}
         
-print(BestHyperparameters.sort_values("R2"))
+# Validate on the never before seen in any way validation data
+predictions = model.predict(X_val)
+r2 = r2_score(y_val["mean"], predictions)
+
+plt.scatter(predictions, y_val["mean"])
+plt.plot([1,2.7], [1,2.7], lw=1, c="black")
+plt.title(f"r2 = {round(r2,1)}")
+plt.xlabel("Predicted AP")
+plt.ylabel("True AP")
+plt.show()
