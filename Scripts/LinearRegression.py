@@ -23,7 +23,7 @@ X_train, X_val, y_train, y_val = train_test_split(parameters, targets, test_size
 X_train, X_test, y_train, y_test = train_test_split(X_train, y_train, test_size=0.33, random_state=9876, shuffle=True)
 
 
-BestHyperparameters = pandas.DataFrame(columns = ["fit_intercept", "positive", "R2"])
+BestHyperparameters = pandas.DataFrame(columns = ["fit_intercept", "positive", "Test data r2"])
 iteration = 0
 for fit_intercept in [True, False]:
     for positive in [True, False]:
@@ -42,7 +42,7 @@ for fit_intercept in [True, False]:
         iteration +=1
         
       
-BestHyperparameters = BestHyperparameters.sort_values("R2")
+BestHyperparameters = BestHyperparameters.sort_values("Test data r2")
 print(BestHyperparameters)
 
 Hyperparameters = {"fit_intercept": BestHyperparameters.iloc[-1]["fit_intercept"],
