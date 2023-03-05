@@ -1,3 +1,7 @@
+#Mine
+*.bak
+Judred.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -131,5 +135,3 @@ dmypy.json
 #Microsoft office
 ~*
 
-#Mine
-*.bak
