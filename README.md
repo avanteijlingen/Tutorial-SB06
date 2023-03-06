@@ -23,3 +23,4 @@ Tutorial SB06 - Machine Learning for Peptide-Based Materials Design
 
 #### Requirements 1-7 software can all be downloaded *via*  [anaconda](https://www.anaconda.com/)
 
+A basic knowledge of the Python programming language or knowledge of another programming language will be required as a minimum.
