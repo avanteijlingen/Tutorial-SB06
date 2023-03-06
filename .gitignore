@@ -1,6 +1,7 @@
 #Mine
 *.bak
 Judred.csv
+*Judred.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
