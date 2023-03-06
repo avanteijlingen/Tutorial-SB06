@@ -7,7 +7,7 @@ Tutorial SB06 - Machine Learning for Peptide-Based Materials Design
 [MRS2023 Tutorial Webpage](https://www.mrs.org/meetings-events/spring-meetings-exhibits/2023-mrs-spring-meeting/call-for-papers/tutorial-sessions-detail/2023_mrs_spring_meeting/sb06/tutorial-sb06-machine-learning-for-peptide-based-materials-design)
 
 
-#Part 3 - Machine Learning
+# Part 3 - Machine Learning
 
 ## Requirements:
 
@@ -21,5 +21,5 @@ Tutorial SB06 - Machine Learning for Peptide-Based Materials Design
 6. [Judred](https://github.com/avanteijlingen/Judred)
 
 
-####Requirements 1-7 software can all be downloaded *via*  [anaconda](https://www.anaconda.com/)
+#### Requirements 1-7 software can all be downloaded *via*  [anaconda](https://www.anaconda.com/)
 
