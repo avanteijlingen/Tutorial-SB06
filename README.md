@@ -18,7 +18,7 @@ Tutorial SB06 - Machine Learning for Peptide-Based Materials Design
 3. Pandas
 4. Scikit-learn
 5. Matplotlib
-6. [Judred](https://github.com/avanteijlingen/Judred)
+
 
 
 #### Requirements 1-7 software can all be downloaded *via*  [anaconda](https://www.anaconda.com/)
