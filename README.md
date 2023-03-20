@@ -9,7 +9,7 @@ Tutorial SB06 - Machine Learning for Peptide-Based Materials Design
 
 # Part 3 - Machine Learning
 
-Follow along the workshop through [MRS2013_Handbook.pdf](https://github.com/avanteijlingen/Tutorial-SB06/blob/main/MRS2013_Handbook.pdf)
+Follow along the workshop through [MRS2023_Handbook.pdf](https://github.com/avanteijlingen/Tutorial-SB06/blob/main/MRS2023_Handbook.pdf)
 
 ## Requirements:
 
