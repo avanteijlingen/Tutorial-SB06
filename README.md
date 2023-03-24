@@ -30,7 +30,7 @@ The Jupyter notebooks that accompany the handbook will be made availible on the 
 
 ![](Images/extrainstall.png)
 
-#### On the day
+# On The Day
 
 Open the command promt or anaconda navigator and clone this git repository:
 ```
