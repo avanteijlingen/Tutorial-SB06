@@ -28,7 +28,7 @@ The Jupyter notebooks that accompany the handbook will be made availible on the 
 
 ![](Images/OpenAnaconda.png)
 
-![](Images/extrainstall.png)
+![](https://i.postimg.cc/HLsbCY74/extrainstall.png)
 
 # On The Day
 
