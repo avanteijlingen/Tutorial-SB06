@@ -36,7 +36,7 @@ Open the command promt or anaconda navigator and clone this git repository:
 ```
 git clone https://github.com/avanteijlingen/Tutorial-SB06
 ```
-Open Jupyter from the start menu and browse for the Machine Learning folder within Tutorial-SB06
+Open Jupyter from the start menu and navigate to the Machine Learning folder within Tutorial-SB06 (this will be in the folder in which you performed the git clone command)
 
 ![Alt text](Images/BrowserJupyter.PNG)
 
