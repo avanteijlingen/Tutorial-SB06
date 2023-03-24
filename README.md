@@ -26,9 +26,9 @@ The Jupyter notebooks that accompany the handbook will be made availible on the 
 
 #### All required software either comes as part of  [anaconda](https://www.anaconda.com/) or can be downloaded *via* the Anaconda Promt (see below):
 
-![Alt text](Images/OpenAnaconda.png)
+![](Images/OpenAnaconda.png)
 
-![Alt text](Images/extrainstall.png)
+![](Images/extrainstall.png)
 
 #### On the day
 
